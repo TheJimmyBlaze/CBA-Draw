@@ -68,7 +68,7 @@ class Draw{
 		try{
 			GraphicsConfiguration conf = device.getDefaultConfiguration();
 			
-			frame = new JFrame("DrawingMK1", conf);
+			frame = new JFrame("CBA-Draw", conf);
 			frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			frame.setSize(WIDTH, HEIGHT);
 			frame.setIgnoreRepaint(true);
